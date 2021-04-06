@@ -1,0 +1,19 @@
+
+i <- 0
+j <- 0
+x <- 1
+
+IF 0 {
+    REPEAT UNTIL i > 10 {
+        i <- i + 1
+        x <- 100 * x 
+        REPEAT 5 TIMES {
+            j <- j + 1
+        }
+
+    }
+}
+ELSE {
+    j <- 1
+    DISPLAY('hello')
+}

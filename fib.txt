@@ -1,0 +1,13 @@
+PROCEDURE fib(x){
+
+    IF (x = 0) OR (x = 1) {
+        RETURN x}
+
+    ELSE {
+        RETURN fib(x - 1) + fib(x - 2)
+    }
+
+}
+
+
+DISPLAY(fib(10))

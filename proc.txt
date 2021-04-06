@@ -1,0 +1,6 @@
+PROCEDURE SUM(x, y) {
+    RETURN x + y
+
+}
+
+DISPLAY(SUM(RANDOM(1,5), RANDOM(1,5)))

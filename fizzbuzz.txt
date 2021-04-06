@@ -1,0 +1,28 @@
+i <- 0
+REPEAT 100 TIMES {
+
+    match <- 0
+
+    IF (MOD(i, 3) = 0) AND (MOD(i, 5) = 0) {
+            DISPLAY('fizzbuzz')
+            match <- 1
+    }
+    ELSE {
+
+        IF MOD(i, 3) = 0 {
+            DISPLAY('fizz')
+            match <- 1
+        }
+
+        IF MOD(i, 5) = 0 {
+            DISPLAY('buzz')
+            match <- 1
+        }
+    }
+
+    IF match = 0 {
+        DISPLAY(i)
+    }
+
+    i <- i + 1
+}
